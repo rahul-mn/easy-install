@@ -1,4 +1,5 @@
 #!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
 
 # GPG is required for the package signing key
 sudo apt update && sudo apt install gpg
